@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T12:32:46.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.6.0" etag="dRGPVG26Psyj92uY7fZm" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T12:48:34.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.6.0" etag="fqn0ws-aPcAw0GdOEh_t" type="github">
   <diagram id="-X5GwTXH2f5F1lh-Zvcs" name="第 1 页">
-    <mxGraphModel dx="1186" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
           <mxGeometry x="93.5" y="350" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9aRJpanTBHcKRkpmwDhF-44" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-          <mxGeometry x="209" y="375" width="43" height="43" as="geometry" />
+          <mxGeometry x="211.5" y="360" width="43" height="43" as="geometry" />
         </mxCell>
         <mxCell id="9aRJpanTBHcKRkpmwDhF-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -177,9 +177,6 @@
         </mxCell>
         <mxCell id="9aRJpanTBHcKRkpmwDhF-52" value="判断为攻击拒绝访问" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#EA6B66;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="550" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9aRJpanTBHcKRkpmwDhF-59" value="管理节点：&lt;br&gt;1.负责配置文件下发&lt;br&gt;2.负责路由策略下发&lt;br&gt;工作节点：&lt;br&gt;1.负责代理转发用户请求到后端" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="40" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9aRJpanTBHcKRkpmwDhF-62" value="&lt;h1&gt;转发策略&lt;/h1&gt;&lt;p&gt;管理节点根据请求的域名，转发到对应地域工作节点&lt;/p&gt;当对应地域工作节点无响应，转发到其他地域工作节点&lt;br&gt;&lt;br&gt;当所有地域工作节点故障，转发到源站" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
           <mxGeometry x="380" y="418" width="190" height="162" as="geometry" />
